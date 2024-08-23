@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "declaration": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,   // This is important to ignore type errors in node_modules
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@anotheritdude/aws-s3-upload",
+  "version": "1.0.0",
+  "description": "Package to upload files to your AWS S3 public bucket using presigned URLs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anotherITdude/aws-s3-storage.git"
+  },
+  "keywords": [
+    "amazon",
+    "s3",
+    "upload"
+  ],
+  "author": "Abhimanyu Baidya @anotheritdude",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anotherITdude/aws-s3-storage/issues"
+  },
+  "homepage": "https://github.com/anotherITdude/aws-s3-storage#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.637.0",
+    "@aws-sdk/s3-presigned-post": "^3.637.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
